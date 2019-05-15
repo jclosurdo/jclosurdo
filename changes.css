@@ -1,0 +1,24 @@
+body {
+    font-family: din-2014, sans-serif !important;
+}
+
+.soften-font h2 {
+    font-weight: lighter;
+}
+
+.soften-font h3 {
+    font-weight: lighter;
+}
+
+/* .nav-fix {
+    font-family: din-2014, sans-serif !important;
+} */
+
+.landing-pic {
+    background: skyblue;
+    height: 400px;
+}
+
+.test {
+    background: red;
+}

@@ -193,10 +193,10 @@ h4,
 h5,
 h6 {
 	color: #444;
-	font-weight: 600;
+	font-weight: 100;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Din 2014', sans-serif;
 }
 
 h5,
@@ -1163,7 +1163,7 @@ body.stretched #header.full-header .container {
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
 	-webkit-transition: margin .4s ease, padding .4s ease;
 	-o-transition: margin .4s ease, padding .4s ease;
 	transition: margin .4s ease, padding .4s ease;
@@ -1185,9 +1185,13 @@ body.stretched #header.full-header .container {
 	font-size: 12px;
 	margin: 0 0 0 5px;
 }
-
+/*
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
+#primary-menu ul li.current > a {
+	/* color: #1ABC9C;  */
+/* }
+
+*/
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -11294,7 +11298,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .emphasis-title h1,
 .emphasis-title h2 {
 	margin-bottom: 0;
-	font-weight: 700;
+	font-weight: 200;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #333;
@@ -13925,5 +13929,3 @@ body:not(.no-transition) #wrapper,
 	-webkit-text-stroke: 0px !important;
 	text-shadow: none !important;
 }
-
-
