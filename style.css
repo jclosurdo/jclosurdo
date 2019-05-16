@@ -7483,7 +7483,6 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box .fbox-icon i,
 .feature-box .fbox-icon img {
 	border-radius: 50%;
-	background-color: #1ABC9C;
 }
 
 .feature-box .fbox-icon i {
@@ -7530,8 +7529,6 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .feature-box.fbox-outline .fbox-icon {
-	border: 1px solid #1ABC9C;
-	border-radius: 50%;
 	padding: 3px;
 }
 
@@ -7571,8 +7568,6 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-light .fbox-icon i,
 .feature-box.fbox-light .fbox-icon img {
-	border: 1px solid #E5E5E5;
-	background-color: #F5F5F5;
 	color: #444;
 }
 
