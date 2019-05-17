@@ -15,10 +15,97 @@ body {
 } */
 
 .landing-pic {
+    /* background-image: url("../jclosurdo/images/case-studies/smart-people/smart-people-competitiveanalysis.png"); */
     background: skyblue;
     height: 400px;
 }
 
 .test {
     background: red;
+}
+
+#competitive-analysis {
+    /* width: 500px; */
+}
+/* 
+.understanding-user {
+    margin-bottom: 60px;
+} */
+
+.little-padding {
+    padding-top: 20px;
+    background: white;
+}
+
+.more-padding {
+    padding-top: 20px;
+}
+
+.no-top-margin {
+    margin-top: 0px;
+}
+
+.horizontal-margins {
+    margin: 0 10vw 0 10vw;
+}
+
+.bullets-up > div > div > img {
+    position: relative;
+    bottom: 15px;
+}
+
+.landing-text > h2{
+    font-size: 3vw;
+    color: white;
+    margin-left: 9vw;
+    margin-right: 40vw;
+    margin-top: 12vh;
+    margin-bottom: 0 !important;
+}
+
+.landing-text > p {
+    font-size: 4vw;
+    color: white;
+    font-weight: lighter;
+    margin-left: 9vw;
+    margin-right: 33vw;
+}
+
+.landing-text {
+    /* margin-top: auto !important; */
+    /* margin-bottom: auto !important; */
+}
+
+.white-background {
+    background: white !important;
+}
+
+@media only screen and (max-width: 575px) {
+
+    .landing-text h2{
+       margin-top: 3vh;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+
+    .landing-text h2{
+       margin-top: 5vh;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    .landing-text h2 {
+       margin-top: 5vh;
+       font-size: 4vw;
+    }
+
+    .landing-text p {
+        font-size: 4.5vw;
+    }
+
 }

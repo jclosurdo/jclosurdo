@@ -321,7 +321,7 @@ span.middot {
 
 .rightmargin-sm { margin-right: 30px !important; }
 
-.topmargin-sm { margin-top: 30px !important; }
+/* .topmargin-sm { margin-top: 30px !important; } */
 
 .bottommargin-sm { margin-bottom: 30px !important; }
 
@@ -566,7 +566,7 @@ span.middot {
 .section {
 	position: relative;
 	margin: 60px 0;
-	padding: 60px 0;
+	/* padding: 60px 0; */
 	background-color: #F9F9F9;
 	overflow: hidden;
 }
@@ -11353,7 +11353,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .center .heading-block:after,
 .heading-block.center:after,
-.heading-block.title-center:after { margin: 30px auto 0; }
+.heading-block.title-center:after { margin: 30px auto 30px auto; }
 
 .tright .heading-block,
 .heading-block.tright,
